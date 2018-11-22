@@ -5,8 +5,7 @@ Voice.cpp——语音识别库文件。
 #include "utility/PinMap.h"
 #ifndef Voice_H
 #define Voice_H
-//#include <utility/PinMap.h>
-//#include <Arduino.h>
+
 
 #define VoiceRecognitionV1 1   //VoiceRecognitionV1.0 Arduino shield
 #define VoiceRecognitionV2 0   //VoiceRecognitionV2.0 Gadgeteer Compatible module
