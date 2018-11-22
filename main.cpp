@@ -40,7 +40,9 @@ void finally(uint8_t n) //n为sRecog数组中对应关键词的序列号
 {
   switch(n)
   {
-      case 0: syn.play(text2,sizeof(text2),0);flag=1;break; // 我在
+      case 0: syn.play(text2,sizeof(text2),0);
+            flag=1;
+            break; // 我在
       case 1: //开灯
            if(flag==1)
            {
